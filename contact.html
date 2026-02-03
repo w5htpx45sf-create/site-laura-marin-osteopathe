@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laura Marin – Ostéopathe | Contact</title>
+    <meta
+      name="description"
+      content="Contactez Laura Marin, ostéopathe à Paris. Prenez rendez-vous ou envoyez un message via le formulaire de contact."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a class="brand" href="index.html">Laura Marin – Ostéopathe</a>
+        <nav class="nav-links">
+          <a href="index.html">Accueil</a>
+          <a href="osteopathie.html">L'ostéopathie</a>
+          <a href="motifs.html">Motifs de consultation</a>
+          <a href="cabinet.html">Le cabinet</a>
+          <a href="contact.html">Contact</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+        </nav>
+        <a class="btn-primary" href="https://www.doctolib.fr/" target="_blank" rel="noopener">
+          Prendre rendez-vous
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-card">
+            <span class="badge">Contact</span>
+            <h1>Restons en contact</h1>
+            <p>
+              <!-- Texte d'accueil à personnaliser -->
+              Pour toute question ou demande de renseignement, vous pouvez utiliser le formulaire
+              ci-dessous ou me joindre par téléphone.
+            </p>
+            <div class="info-panel">
+              <div>
+                <h3>Téléphone</h3>
+                <p>01 23 45 67 89</p>
+                <p>Du lundi au vendredi, 9h – 19h</p>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p>contact@lauramarin-osteopathe.fr</p>
+                <p>Réponse sous 48h ouvrées.</p>
+              </div>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Formulaire de contact</h2>
+            <form class="form" action="#" method="post">
+              <!-- Remplacer l'attribut action par votre solution d'envoi -->
+              <div class="input-group">
+                <label for="name">Nom et prénom</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom" required />
+              </div>
+              <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required />
+              </div>
+              <div class="input-group">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" placeholder="Votre numéro" />
+              </div>
+              <div class="input-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Expliquez votre demande"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn-primary" type="submit">Envoyer</button>
+              <p>
+                <!-- Mention RGPD à ajuster si besoin -->
+                Les informations envoyées via ce formulaire sont utilisées uniquement pour répondre
+                à votre demande. Consultez les mentions légales &amp; RGPD pour plus de détails.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Laura Marin – Ostéopathe</h3>
+          <p>24 rue des Dunes, 75000 Paris</p>
+          <p>Tél : 01 23 45 67 89</p>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Email : contact@lauramarin-osteopathe.fr</p>
+          <p><a href="contact.html">Formulaire de contact</a></p>
+        </div>
+        <div>
+          <h3>Infos pratiques</h3>
+          <p><a href="mentions-legales.html">Mentions légales &amp; RGPD</a></p>
+          <p>© 2024 Laura Marin. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
