@@ -1,6 +1,6 @@
 # Site vitrine – Laura Marin, Ostéopathe
 
-Site vitrine responsive pour Laura Marin, ostéopathe à domicile à Reignier-Ésery et alentours.
+Ce dépôt contient un site vitrine complet et responsive pour une ostéopathe en France.
 
 ## Structure des fichiers
 
