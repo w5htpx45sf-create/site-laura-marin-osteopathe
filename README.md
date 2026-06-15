@@ -6,17 +6,25 @@ Ce dépôt contient un site vitrine complet et responsive pour une ostéopathe e
 
 ```
 .
+├── assets/
+│   ├── favicon.svg
+│   └── laura-marin-placeholder.svg
+├── guides/
+│   ├── guide-douleurs-menstruelles.pdf
+│   └── guide-osteopathie.pdf
 ├── index.html
 ├── osteopathie.html
 ├── motifs.html
 ├── cabinet.html
 ├── contact.html
 ├── mentions-legales.html
+├── sitemap.xml
 └── styles.css
 ```
 
 ## Personnalisation rapide
 
-- Modifiez les textes directement dans les fichiers HTML (des commentaires indiquent les zones clés).
-- Remplacez le lien du bouton **Prendre rendez-vous** dans chaque page (actuellement sur Doctolib).
-- Ajustez les couleurs dans `styles.css` via les variables CSS.
+- Remplacer `assets/laura-marin-placeholder.svg` par une photo réelle en WebP si disponible.
+- Modifier les textes directement dans les pages HTML.
+- Mettre à jour les guides PDF dans le dossier `guides/`.
+- Les couleurs et la typographie sont centralisées dans `styles.css`.
