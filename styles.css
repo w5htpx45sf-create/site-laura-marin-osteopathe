@@ -112,12 +112,6 @@ summary { cursor: pointer; font-weight: 900; color: var(--green-dark); }
 details p { margin-top: .75rem; }
 .contact-panel { display: grid; gap: 1.25rem; align-items: start; }
 .phone-large { display: inline-flex; color: var(--green); font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(2.5rem, 7vw, 4.5rem); font-weight: 700; line-height: 1; margin: .5rem 0 1rem; }
-.form { display: grid; gap: .95rem; }
-.input-group { display: grid; gap: .35rem; }
-label { font-weight: 800; color: var(--green-dark); }
-input, textarea { width: 100%; border: 1px solid rgba(40,72,61,.2); border-radius: 18px; background: #fffefb; padding: .9rem 1rem; font: inherit; color: var(--text); }
-textarea { min-height: 140px; resize: vertical; }
-
 .footer { background: var(--green-dark); color: var(--white); padding: 3rem 0 1.25rem; }
 .footer-grid { display: grid; gap: 2rem; }
 .footer-logo { width: 92px; height: 92px; object-fit: contain; border-radius: 24px; background: var(--cream); margin-bottom: 1rem; }
