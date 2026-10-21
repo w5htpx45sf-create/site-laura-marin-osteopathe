@@ -4,7 +4,7 @@
 
 La copie préparée reprend les fichiers texte accessibles à la révision du dépôt au commit `345d1038d898427a33cdad69cb76b1936e8bc3e9`. Le terminal n’a pas pu cloner le dépôt et cette copie ne contient pas de métadonnées Git : l’état des modifications locales de la véritable copie de travail n’a donc pas pu être contrôlé. Les fichiers ont été transmis au dépôt GitHub après vérification du compte et de la branche principale.
 
-Le déploiement du lot est réalisé dans un commit atomique sur la branche principale. Le site public doit encore être vérifié après la publication.
+Le lot a été publié sur la branche principale dans le commit `0739ae10a01e22f70ae4e2197f2fe23a22d0b65d`. Le workflow GitHub Pages (`39587742530`) s’est terminé avec succès. L’accueil et la page locale de Reignier-Ésery ont été ouverts après publication le 21 octobre 2026.
 
 ## Problèmes détectés
 
@@ -52,7 +52,7 @@ Le déploiement du lot est réalisé dans un commit atomique sur la branche prin
 ## Limites des vérifications
 
 - Le clonage terminal a échoué faute d’accès réseau ; le statut Git et les changements non validés de la copie de travail réelle restent inconnus.
-- Le navigateur a refusé l’ouverture des fichiers locaux et le serveur d’aperçu local n’a pas pu écouter sur le port demandé. Le rendu visuel mobile, tablette et ordinateur n’a donc pas été vérifié.
+- Le navigateur a refusé l’ouverture des fichiers locaux et le serveur d’aperçu local n’a pas pu écouter sur le port demandé. L’accueil publié a été contrôlé visuellement sur ordinateur ; les rendus mobile et tablette n’ont pas été vérifiés.
 - Lighthouse, lecteurs d’écran et contraste mesuré par outil n’ont pas été exécutés.
 - La comparaison avec le site public est incomplète ; aucun test d’interaction réel de téléphone/SMS n’a été fait.
 - Les mentions légales ont été auditées, mais pas déclarées conformes.
